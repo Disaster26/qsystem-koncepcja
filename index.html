@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Instalacje sanitarne Iława - projekt, montaż, nadzór | Q System</title>
+<meta name="description" content="Q System Iława: projektowanie i montaż instalacji wod-kan, c.o. i gazowych, nadzory inwestorskie w branży sanitarnej, świadectwa energetyczne, kosztorysy i harmonogramy. Tel. 513 736 053.">
+<meta name="theme-color" content="#141414">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/montserrat-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/rozdzielacz-420.webp" imagesrcset="img/rozdzielacz-420.webp 420w, img/rozdzielacz-794.webp 794w" imagesizes="(max-width:760px) 50vw, 33vw" fetchpriority="high">
+<style>
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:400 900;font-display:swap;src:url(fonts/montserrat-rdzen.woff2) format("woff2");unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00B0,U+00B2,U+00B7,U+00BB,U+00D3,U+00F3,U+2013,U+2018-2019,U+201C-201E,U+2022,U+2026,U+2192}
+@font-face{font-family:"Montserrat";font-style:normal;font-weight:400 900;font-display:swap;src:url(fonts/montserrat-pl.woff2) format("woff2");unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+:root{--g:#8BC34A;--gd:#4E7F1F;--k:#141414;--k2:#1C1F1C;--sz:#EEF0F2;--li:#DDE2E6;--t:#2A2D2F;--t2:#5A6064;--o:#E9A507;--hh:72px;--w:min(1200px,calc(100% - 40px))}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh)}
+body{margin:0;font:400 17px/1.6 "Montserrat",system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--t);background:#fff;-webkit-text-size-adjust:100%}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3{font-weight:800;line-height:1.12;margin:0;color:var(--k);letter-spacing:-.01em}
+h2{font-size:clamp(28px,3.4vw,46px)}
+h3{font-size:clamp(21px,1.9vw,26px)}
+p{margin:0 0 14px}
+.wrap{width:var(--w);margin:0 auto}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:54px;padding:0 28px;background:var(--g);color:var(--k);font:700 17px/1 "Montserrat",sans-serif;text-decoration:none;border:0;border-radius:4px;cursor:pointer;transition:background .2s}
+.btn:hover{background:#9CD35A}
+.btn-k{background:var(--k);color:#fff}
+.btn-k:hover{background:#2c302c}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:50;height:var(--hh);background:#fff;border-bottom:1px solid var(--li)}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo img{height:46px;width:auto}
+.nav{display:flex;align-items:center;gap:30px}
+.nav a{text-decoration:none;font-weight:600;font-size:15.5px;color:var(--k);padding:6px 0;border-bottom:3px solid transparent}
+.nav a:hover{border-color:var(--g)}
+.nav a.tel{display:inline-flex;align-items:center;gap:9px;font-weight:800;font-size:17px;border:0;padding:10px 0 10px 22px;border-left:1px solid var(--li)}
+.tel svg{width:20px;height:20px;flex:none}
+.burger{display:none;width:48px;height:48px;border:0;background:none;cursor:pointer;padding:12px;margin-right:-12px}
+.burger span{display:block;height:3px;background:var(--k);margin:5px 0;border-radius:2px;transition:transform .2s,opacity .2s}
+
+/* pierwszy ekran */
+.hero{position:relative;background:var(--k);min-height:min(calc(100svh - var(--hh)),1040px);display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;color:#fff}
+.hero-foto{position:absolute;inset:0;width:100%;max-width:2280px;margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.hero-foto picture,.hero-foto img{width:100%;height:100%;min-width:0}
+.hero-foto img{object-fit:cover}
+.hero-foto::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(14,16,14,.94) 0%,rgba(14,16,14,.7) 34%,rgba(14,16,14,.18) 66%,rgba(14,16,14,0) 100%),linear-gradient(to right,rgba(14,16,14,.55),rgba(14,16,14,0) 60%)}
+.hero-in{position:relative;z-index:2;width:var(--w);margin:0 auto;padding:40px 0 clamp(40px,8vh,96px)}
+.hero h1{color:#fff;font-size:clamp(34px,4.3vw,66px);max-width:15.5em;font-weight:800}
+.hero h1 .pr{display:block;color:var(--g)}
+.hero .lead{font-size:clamp(17px,1.35vw,20px);line-height:1.55;max-width:40em;margin:22px 0 30px;color:#E6E9E6}
+.hero .adr{margin:18px 0 0;font-size:15px;color:#C9CEC9}
+
+/* uslugi - pion instalacyjny */
+.sek{padding:clamp(64px,8vw,116px) 0}
+.sek-szara{background:var(--sz)}
+.glowa{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px 64px;align-items:end;margin-bottom:clamp(36px,4vw,56px)}
+.glowa p{color:var(--t2);font-size:18px;margin:0}
+.trasa{position:relative;padding-left:64px}
+.trasa::before{content:"";position:absolute;left:12px;top:6px;bottom:48px;width:7px;background:var(--g);border-radius:4px}
+.trasa::after{content:"";position:absolute;left:4px;bottom:34px;width:23px;height:14px;background:var(--k);border-radius:2px}
+.usl{position:relative;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.5fr);gap:12px 56px;padding:34px 0 36px;border-bottom:1px solid var(--li)}
+.usl:first-child{padding-top:4px}
+.usl::before{content:"";position:absolute;left:-52px;top:47px;width:38px;height:7px;background:var(--g)}
+.usl:first-child::before{top:17px}
+.usl::after{content:"";position:absolute;left:-18px;top:43px;width:8px;height:15px;background:var(--k);border-radius:1px}
+.usl:first-child::after{top:13px}
+.usl h3{padding-top:2px}
+.usl p{color:var(--t2)}
+.usl ul{list-style:none;margin:6px 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 28px}
+.usl li{position:relative;padding-left:20px;font-weight:500;line-height:1.45}
+.usl li::before{content:"";position:absolute;left:0;top:.5em;width:9px;height:9px;background:var(--g)}
+.usl .uw{margin:14px 0 0;font-size:15px;color:var(--t2)}
+
+/* realizacje */
+.ciemna{background:var(--k);color:#D9DDD9}
+.ciemna h2,.ciemna h3{color:#fff}
+.ciemna .glowa p{color:#B9BFB9}
+.galeria{position:relative}
+.tor{display:flex;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;padding-bottom:4px;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor.ciag{cursor:grabbing;scroll-snap-type:none}
+.tor figure{margin:0;flex:none;scroll-snap-align:start;width:min-content}
+.tor button{display:block;padding:0;border:0;background:#000;cursor:zoom-in}
+.tor img{height:clamp(340px,40vw,520px);width:auto;max-width:none;user-select:none;-webkit-user-drag:none}
+.tor figcaption{margin-top:12px;font-size:15px;color:#B9BFB9;max-width:30em}
+.strz{display:flex;gap:10px;margin-top:22px}
+.strz button{width:52px;height:52px;border:2px solid #4A504A;background:none;color:#fff;border-radius:4px;cursor:pointer;font:700 22px/1 "Montserrat",sans-serif}
+.strz button:hover{border-color:var(--g);color:var(--g)}
+.inw{margin-top:clamp(56px,6vw,88px);display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,2fr);gap:24px 64px;border-top:7px solid var(--g);padding-top:36px}
+.inw p{color:#B9BFB9}
+.inw h3{margin-bottom:12px}
+.inw ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 32px}
+.inw li{padding:14px 0;border-bottom:1px solid #2E332E;line-height:1.4}
+.inw li b{display:block;color:#fff;font-weight:700}
+.inw li span{font-size:15px;color:#AEB4AE}
+
+/* swiadectwa */
+.dwie{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:48px 80px;align-items:center}
+.dwie h2{margin-bottom:22px}
+.fakty{list-style:none;padding:0;margin:26px 0 0;border-top:1px solid #CDD3D8}
+.fakty li{display:grid;grid-template-columns:minmax(0,10.5em) minmax(0,1fr);gap:4px 24px;padding:16px 0;border-bottom:1px solid #CDD3D8}
+.fakty b{color:var(--k);font-weight:800}
+.dok{justify-self:center;width:100%;max-width:440px;background:#fff;padding:14px;box-shadow:0 18px 40px rgba(20,20,20,.14);border-top:7px solid var(--g)}
+.dok button{display:block;border:0;padding:0;background:none;cursor:zoom-in;width:100%}
+.dok img{width:100%;height:auto}
+.dok p{margin:12px 2px 0;font-size:14px;color:var(--t2)}
+
+/* kosztorysy */
+.trzy{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px 72px}
+.trzy h3{margin-bottom:14px}
+.trzy ul{list-style:none;padding:0;margin:0 0 8px}
+.trzy li{position:relative;padding:9px 0 9px 22px;border-bottom:1px solid var(--li);font-weight:500}
+.trzy li::before{content:"";position:absolute;left:0;top:1.05em;width:9px;height:9px;background:var(--g)}
+.trzy p{color:var(--t2)}
+.cert{display:grid;grid-template-columns:repeat(2,minmax(0,300px));gap:20px;margin-top:48px}
+.cert button{display:block;border:1px solid var(--li);padding:8px;background:#fff;cursor:zoom-in;width:100%}
+.cert img{width:100%;height:auto}
+.cert figure{margin:0}
+.cert figcaption{font-size:14px;color:var(--t2);margin-top:8px}
+
+/* kontakt */
+.kontakt{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);background:var(--g);color:var(--k)}
+.k-dane{padding:clamp(40px,5vw,72px)}
+.k-dane h2{margin-bottom:18px}
+.k-dane p{font-size:18px;max-width:28em}
+.k-lista{list-style:none;padding:0;margin:30px 0 0;border-top:2px solid rgba(20,20,20,.25)}
+.k-lista li{padding:14px 0;border-bottom:2px solid rgba(20,20,20,.25);display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:12px}
+.k-lista span{font-size:15px;font-weight:600;opacity:.75}
+.k-lista a,.k-lista b{font-weight:800;font-size:19px;text-decoration:none;overflow-wrap:anywhere}
+.form{background:#fff;padding:clamp(28px,4vw,56px);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px 20px;align-content:start;border:7px solid var(--g)}
+.form label{display:block;font-size:14px;font-weight:700;margin-bottom:7px;color:var(--k)}
+.form .cala{grid-column:1/-1}
+.form input,.form textarea{width:100%;font:500 16px/1.4 "Montserrat",sans-serif;padding:14px 15px;border:1.5px solid #C9D0D5;border-radius:4px;background:#fff;color:var(--k)}
+.form input:focus,.form textarea:focus{outline:3px solid rgba(139,195,74,.5);border-color:var(--gd)}
+.form textarea{min-height:130px;resize:vertical}
+.plik{display:flex;align-items:center;gap:14px;flex-wrap:wrap;border:1.5px dashed #AEB6BC;border-radius:4px;padding:14px 15px;font-size:15px;color:var(--t2)}
+.plik input{width:auto;border:0;padding:0;font-size:14px}
+.form .uwaga{font-size:13px;color:var(--t2);margin:0}
+.mapa{height:380px;background:var(--sz)}
+.mapa iframe{width:100%;height:100%;border:0;display:block}
+
+/* stopka */
+.stopka{background:var(--k);color:#AEB4AE;padding:56px 0 30px;font-size:15px}
+.st-g{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) minmax(0,1fr);gap:32px}
+.flogo{display:inline-flex;align-items:center;gap:8px;font-weight:900;font-size:30px;color:#fff;letter-spacing:-.02em;margin-bottom:14px}
+.flogo i{font-style:normal;width:42px;height:42px;border-radius:50%;background:var(--g);display:grid;place-items:center;font-size:27px}
+.stopka h4{color:#fff;margin:0 0 12px;font-size:16px}
+.stopka ul{list-style:none;padding:0;margin:0}
+.stopka li{padding:3px 0}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.st-d{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;margin-top:40px;padding-top:22px;border-top:1px solid #2E332E}
+
+/* pasek telefonu */
+.mob{display:none}
+/* podglad zdjec */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(10,10,10,.94);display:none;align-items:center;justify-content:center;padding:20px}
+.lb.on{display:flex}
+.lb img{max-width:100%;max-height:100%;width:auto;height:auto}
+.lb button{position:absolute;top:12px;right:12px;width:52px;height:52px;border:0;background:#fff;color:var(--k);font:700 26px/1 "Montserrat",sans-serif;border-radius:4px;cursor:pointer}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+@media (max-width:1180px){.nav{gap:22px}.nav a{font-size:15px}}
+@media (max-width:1024px){
+  :root{--hh:64px}
+  .logo img{height:40px}
+  .burger{display:block}
+  .nav{position:fixed;top:var(--hh);left:0;right:0;flex-direction:column;align-items:stretch;gap:0;background:#fff;border-bottom:1px solid var(--li);padding:8px 20px 20px;box-shadow:0 16px 30px rgba(0,0,0,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:.2s}
+  .nav.on{transform:none;opacity:1;visibility:visible}
+  .nav a{padding:15px 0;border-bottom:1px solid var(--li);font-size:17px;line-height:1.45}
+  .nav a:hover{border-color:var(--li)}
+  .nav a.tel{border-left:0;padding:16px 0 4px}
+  .burger.on span:nth-child(1){transform:translateY(8px) rotate(45deg)}
+  .burger.on span:nth-child(2){opacity:0}
+  .burger.on span:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+  .glowa,.dwie,.trzy,.inw,.kontakt{grid-template-columns:minmax(0,1fr)}
+  .inw ul{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .st-g{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .st-g>div:first-child{grid-column:1/-1}
+}
+@media (max-width:760px){
+  :root{--hh:60px;--w:calc(100% - 32px)}
+  body{font-size:16px}
+  .logo img{height:36px}
+  .hero{justify-content:flex-start;min-height:calc(100svh - var(--hh))}
+  .hero-foto{position:relative;inset:auto;flex:1 1 auto;min-height:max(27svh,150px);grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+  .hero-foto picture:nth-child(3){display:none}
+  .hero-foto picture{position:relative}
+  .hero-foto img{position:absolute;inset:0}
+  .hero-foto::after{background:linear-gradient(to top,var(--k) 0%,rgba(20,20,20,.35) 30%,rgba(20,20,20,0) 55%)}
+  .hero-in{flex:0 0 auto;padding:6px 0 max(24px,4svh)}
+  .hero h1{font-size:clamp(24px,min(7.4vw,4.1svh),36px)}
+  .hero .lead{font-size:clamp(15px,min(4.1vw,2.35svh),17px);margin:min(14px,2svh) 0 26px}
+  .hero .btn{width:100%}
+  .hero .adr{margin-top:min(14px,2svh);font-size:14px}
+  .trasa{padding-left:40px}
+  .trasa::before{left:4px;width:6px}
+  .trasa::after{left:-2px;width:18px;height:12px}
+  .usl{grid-template-columns:minmax(0,1fr);gap:10px;padding:28px 0}
+  .usl::before{left:-36px;top:39px;width:26px;height:6px}
+  .usl:first-child::before{top:13px}
+  .usl::after{left:-12px;top:35px;width:7px;height:14px}
+  .usl:first-child::after{top:9px}
+  .usl ul{grid-template-columns:minmax(0,1fr)}
+  .tor img{height:min(380px,66vw)}
+  .inw ul{grid-template-columns:minmax(0,1fr)}
+  .fakty li{grid-template-columns:minmax(0,1fr)}
+  .cert{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+  .form{grid-template-columns:minmax(0,1fr);border-width:0;padding:28px 16px}
+  .k-dane{padding:40px 16px}
+  .k-lista li{grid-template-columns:minmax(0,1fr);gap:2px}
+  .mapa{height:300px}
+  .st-g{gap:24px 16px}
+  .mob{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;position:fixed;left:0;right:0;bottom:0;z-index:40;padding:8px 10px calc(8px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--li);transform:translateY(110%);transition:transform .25s}
+  .mob.widac{transform:none}
+  .mob .btn{min-height:48px;padding:0 10px;font-size:16px}
+  .stopka{padding-bottom:96px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="Q System Iława - strona główna"><img src="img/logo.png" alt="Q System Iława" width="416" height="125"></a>
+    <nav class="nav" id="nav" aria-label="Menu">
+      <a href="#uslugi">Usługi</a>
+      <a href="#realizacje">Realizacje</a>
+      <a href="#swiadectwa">Świadectwa energetyczne</a>
+      <a href="#kosztorysy">Kosztorysy</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="tel" href="tel:+48513736053"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1L6.6 10.8z" fill="currentColor"/></svg>513 736 053</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Otwórz menu" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="start">
+  <div class="hero-foto">
+    <picture><img src="img/rozdzielacz-794.webp" srcset="img/rozdzielacz-420.webp 420w, img/rozdzielacz-794.webp 794w" sizes="(max-width:760px) 50vw, 33vw" width="794" height="1058" alt="Rozdzielacz wody z wodomierzami zamontowany przez Q System" fetchpriority="high"></picture>
+    <picture><img src="img/lazienka-794.webp" srcset="img/lazienka-420.webp 420w, img/lazienka-794.webp 794w" sizes="(max-width:760px) 50vw, 33vw" width="794" height="1058" alt="Podejścia wodne i kanalizacyjne w łazience przed wykończeniem"></picture>
+    <picture><img src="img/podlogowka-720.webp" srcset="img/podlogowka-420.webp 420w, img/podlogowka-720.webp 720w" sizes="33vw" width="720" height="960" alt="Ogrzewanie podłogowe ułożone przed wylewką"></picture>
+  </div>
+  <div class="hero-in">
+    <h1>Instalacje sanitarne w&nbsp;Iławie <span class="pr">od projektu do odbioru</span></h1>
+    <p class="lead">Projektujemy i montujemy instalacje wodne, kanalizacyjne, grzewcze i gazowe. Prowadzimy nadzory inwestorskie, robimy kosztorysy, harmonogramy i świadectwa energetyczne.</p>
+    <a class="btn" href="#kontakt">Zapytaj o wycenę</a>
+    <p class="adr">ul. Wyczółkowskiego 18, 14-200 Iława</p>
+  </div>
+</section>
+
+<section class="sek" id="uslugi">
+  <div class="wrap">
+    <div class="glowa">
+      <h2>Jedna firma na całą instalację</h2>
+      <p>Od przyłącza i projektu, przez montaż, po dokumenty potrzebne do odbioru. Pracujemy dla inwestorów prywatnych, publicznych i zagranicznych.</p>
+    </div>
+    <div class="trasa">
+      <article class="usl">
+        <h3>Projektowanie instalacji</h3>
+        <div>
+          <p>Dokumentacja projektowa instalacji sanitarnych dla domów jednorodzinnych, budynków wielorodzinnych, biurowych, magazynowych i handlowo-usługowych.</p>
+          <ul><li>przyłącza wody i kanalizacji sanitarnej</li><li>przyłącza wody deszczowej</li><li>przyłącza gazu</li><li>instalacje wod-kan</li><li>instalacje c.o.</li></ul>
+        </div>
+      </article>
+      <article class="usl">
+        <h3>Montaż instalacji sanitarnych</h3>
+        <div>
+          <p>Instalacje wewnętrzne w nowych i remontowanych budynkach.</p>
+          <ul><li>instalacje wodne i wodno-kanalizacyjne</li><li>kanalizacja sanitarna i deszczowa</li><li>instalacje grzewcze</li><li>instalacje gazowe</li><li>ciepło technologiczne</li></ul>
+        </div>
+      </article>
+      <article class="usl">
+        <h3>Nadzory i zarządzanie projektami</h3>
+        <div>
+          <p>Pełne nadzory inwestorskie w branży sanitarnej na wszystkich etapach budowy: od sieci zewnętrznych po przygotowanie inwestycji do odbioru przez Sanepid i straż pożarną.</p>
+          <ul><li>zamówienia publiczne i kontrakty FIDIC</li><li>zarządzanie projektem wg PRINCE2</li><li>IBWR i wnioski materiałowe</li><li>instrukcje obsługi, dokumentacja powykonawcza</li></ul>
+        </div>
+      </article>
+      <article class="usl">
+        <h3>Świadectwa energetyczne</h3>
+        <div>
+          <p>Świadectwa charakterystyki energetycznej domów, mieszkań, budynków użyteczności publicznej i hal, w formie papierowej lub elektronicznej.</p>
+          <p class="uw"><a href="#swiadectwa">Kiedy świadectwo jest potrzebne →</a></p>
+        </div>
+      </article>
+      <article class="usl">
+        <h3>Kosztorysy i harmonogramy</h3>
+        <div>
+          <p>Przedmiary i kosztorysy instalacji sanitarnych i wentylacji, inwestorskie i ofertowe. Harmonogramy robót w MS Project.</p>
+          <p class="uw"><a href="#kosztorysy">Szczegóły →</a></p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sek ciemna" id="realizacje">
+  <div class="wrap">
+    <div class="glowa">
+      <h2>Z naszych budów</h2>
+      <p>Instalacje przed zakryciem: tak wyglądają, zanim schowa je wylewka, tynk i płytki.</p>
+    </div>
+    <div class="galeria">
+      <div class="tor" id="tor">
+        <figure><button type="button" data-duze="img/strop-1000.webp"><img src="img/strop-1000.webp" srcset="img/strop-600.webp 600w, img/strop-1000.webp 1000w" sizes="(max-width:760px) 92vw, 700px" width="1000" height="750" alt="Rury instalacyjne ułożone na zbrojeniu stropu przed betonowaniem" loading="lazy"></button><figcaption>Rury ułożone na zbrojeniu stropu przed betonowaniem</figcaption></figure>
+        <figure><button type="button" data-duze="img/rozdzielacz-794.webp"><img src="img/rozdzielacz-794.webp" srcset="img/rozdzielacz-420.webp 420w, img/rozdzielacz-794.webp 794w" sizes="(max-width:760px) 70vw, 400px" width="794" height="1058" alt="Rozdzielacz z czterema wodomierzami" loading="lazy"></button><figcaption>Rozdzielacz z wodomierzami</figcaption></figure>
+        <figure><button type="button" data-duze="img/podlogowka-720.webp"><img src="img/podlogowka-720.webp" srcset="img/podlogowka-420.webp 420w, img/podlogowka-720.webp 720w" sizes="(max-width:760px) 70vw, 400px" width="720" height="960" alt="Pętle ogrzewania podłogowego" loading="lazy"></button><figcaption>Ogrzewanie podłogowe przed wylewką</figcaption></figure>
+        <figure><button type="button" data-duze="img/lazienka-794.webp"><img src="img/lazienka-794.webp" srcset="img/lazienka-420.webp 420w, img/lazienka-794.webp 794w" sizes="(max-width:760px) 70vw, 400px" width="794" height="1058" alt="Podejścia wodne w łazience" loading="lazy"></button><figcaption>Podejścia wody ciepłej i zimnej w łazience</figcaption></figure>
+      </div>
+      <div class="strz"><button type="button" id="wstecz" aria-label="Poprzednie zdjęcie">←</button><button type="button" id="dalej" aria-label="Następne zdjęcie">→</button></div>
+    </div>
+
+    <div class="inw">
+      <div>
+        <h3>Przykładowe inwestycje</h3>
+        <p>Budowy, na których prowadziliśmy prace w branży sanitarnej: od osiedli i szkół po sieci wodociągowe i kanalizacyjne.</p>
+      </div>
+      <ul>
+        <li><b>Gdańsk, ul. Jagiełły</b><span>budynki wielorodzinne</span></li>
+        <li><b>Gdańsk, ul. Borkowska</b><span>budynki wielorodzinne</span></li>
+        <li><b>Gdańsk, ul. Jana Pawła II</b><span>budynki wielorodzinne</span></li>
+        <li><b>Gdańsk, ul. Aliny Pieńkowskiej</b><span>zabudowa szeregowa</span></li>
+        <li><b>Gdańsk</b><span>Centrum Medycyny Nieinwazyjnej</span></li>
+        <li><b>Gdańsk</b><span>remont basenu w liceum</span></li>
+        <li><b>Kosakowo</b><span>kompleks szkolno-sportowy</span></li>
+        <li><b>Elbląg</b><span>Zakład Utylizacji Odpadów</span></li>
+        <li><b>Elbląg</b><span>rozbudowa hipermarketu Carrefour</span></li>
+        <li><b>Krynica Morska</b><span>sieć kanalizacji deszczowej</span></li>
+        <li><b>Frombork</b><span>sieć wodociągowa dla wodociągów</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="sek sek-szara" id="swiadectwa">
+  <div class="wrap dwie">
+    <div>
+      <h2>Świadectwo energetyczne do sprzedaży lub wynajmu</h2>
+      <p>Właściciel domu lub mieszkania i zarządca budynku muszą przekazać świadectwo kupującemu albo najemcy. Sporządzamy je w programie Arkadia Termo dla domów jednorodzinnych, mieszkań, budynków użyteczności publicznej i hal.</p>
+      <ul class="fakty">
+        <li><b>Ważność</b><span>10 lat od sporządzenia, chyba że wcześniej zmieni się charakterystyka budynku, np. po wymianie okien, dociepleniu albo wymianie źródła ciepła.</span></li>
+        <li><b>Forma papierowa</b><span>numer z centralnego rejestru i podpis osoby uprawnionej.</span></li>
+        <li><b>Forma elektroniczna</b><span>numer z centralnego rejestru i podpis kwalifikowany, zaufany albo osobisty.</span></li>
+      </ul>
+    </div>
+    <figure class="dok">
+      <button type="button" data-duze="img/swiadectwo-600.webp"><img src="img/swiadectwo-600.webp" width="600" height="682" alt="Przykładowe świadectwo charakterystyki energetycznej domu jednorodzinnego" loading="lazy"></button>
+      <p>Przykładowe świadectwo domu jednorodzinnego</p>
+    </figure>
+  </div>
+</section>
+
+<section class="sek" id="kosztorysy">
+  <div class="wrap">
+    <div class="glowa">
+      <h2>Kosztorysy i harmonogramy</h2>
+      <p>Wiedza z wielu lat na budowach pozwala rzetelnie przedmiarować i wyceniać instalacje sanitarne, a dobry harmonogram pozwala trzymać budowę w ryzach.</p>
+    </div>
+    <div class="trzy">
+      <div>
+        <h3>Kosztorysy w programie Norma PRO</h3>
+        <ul><li>kosztorysy instalacji sanitarnych</li><li>kosztorysy układów wentylacyjnych</li><li>kosztorysy inwestorskie</li><li>kosztorysy ofertowe</li><li>przedmiary</li></ul>
+      </div>
+      <div>
+        <h3>Harmonogramy w MS Project</h3>
+        <p>Harmonogram robót pokazuje inwestorowi i wykonawcy kolejne etapy budowy i ułatwia kontrolę postępów. Pozwala:</p>
+        <ul><li>zarządzać zasobami i czasem</li><li>łatwiej przygotować kosztorys</li><li>planować i nadzorować prace</li><li>szybciej raportować postęp</li></ul>
+      </div>
+    </div>
+    <div class="cert">
+      <figure><button type="button" data-duze="img/certyfikat-600.webp"><img src="img/certyfikat-600.webp" width="600" height="424" alt="Certyfikat ukończenia kursu kosztorysowania od podstaw" loading="lazy"></button><figcaption>Kurs kosztorysowania od podstaw</figcaption></figure>
+      <figure><button type="button" data-duze="img/uprawnienia-600.webp"><img src="img/uprawnienia-600.webp" width="600" height="424" alt="Certyfikat szkolenia z obsługi programu Norma PRO" loading="lazy"></button><figcaption>Obsługa programu Norma PRO</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt">
+  <div class="kontakt">
+    <div class="k-dane">
+      <h2>Napisz, czego potrzebujesz</h2>
+      <p>Do wiadomości można dołączyć projekt, przedmiar albo zdjęcia, wtedy łatwiej o konkretną odpowiedź.</p>
+      <ul class="k-lista">
+        <li><span>Telefon</span><a href="tel:+48513736053">513 736 053</a></li>
+        <li><span>E-mail</span><a href="mailto:q_system@wp.pl">q_system@wp.pl</a></li>
+        <li><span>Adres</span><b>ul. Wyczółkowskiego 18<br>14-200 Iława</b></li>
+      </ul>
+    </div>
+    <form class="form" onsubmit="event.preventDefault();this.querySelector('.uwaga').textContent='To podgląd - formularz zacznie wysyłać wiadomości na docelowej stronie.'">
+      <div><label for="f-im">Imię i nazwisko</label><input id="f-im" name="imie" autocomplete="name"></div>
+      <div><label for="f-tel">Telefon lub e-mail</label><input id="f-tel" name="kontakt" autocomplete="tel"></div>
+      <div class="cala"><label for="f-msg">Wiadomość</label><textarea id="f-msg" name="wiadomosc" placeholder="Np. projekt instalacji do domu, świadectwo do sprzedaży mieszkania"></textarea></div>
+      <div class="cala"><label for="f-plik">Załącznik</label><div class="plik"><input id="f-plik" type="file" name="plik"></div></div>
+      <div class="cala"><button class="btn btn-k" type="submit">Wyślij wiadomość</button></div>
+      <p class="uwaga cala">Odpowiadamy telefonicznie lub mailowo.</p>
+    </form>
+  </div>
+  <div class="mapa" id="mapa" data-src="https://www.google.com/maps?q=Wyczółkowskiego+18,+14-200+Iława&amp;z=15&amp;output=embed" aria-label="Mapa dojazdu"></div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="st-g">
+      <div>
+        <div class="flogo"><i>Q</i>System</div>
+        <p>Instalacje sanitarne, nadzory, projektowanie, świadectwa energetyczne, kosztorysy i harmonogramy. Iława i okolice.</p>
+      </div>
+      <div>
+        <h4>Usługi</h4>
+        <ul><li><a href="#uslugi">Projektowanie instalacji</a></li><li><a href="#uslugi">Montaż instalacji</a></li><li><a href="#uslugi">Nadzory</a></li><li><a href="#swiadectwa">Świadectwa energetyczne</a></li><li><a href="#kosztorysy">Kosztorysy</a></li></ul>
+      </div>
+      <div>
+        <h4>Kontakt</h4>
+        <ul><li><a href="tel:+48513736053">tel. 513 736 053</a></li><li><a href="mailto:q_system@wp.pl">q_system@wp.pl</a></li><li>ul. Wyczółkowskiego 18</li><li>14-200 Iława</li></ul>
+      </div>
+    </div>
+    <div class="st-d">
+      <span>© 2026 Q System Iława</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=qsystem.ilawa.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+  </div>
+</footer>
+
+<div class="mob" id="mob"><a class="btn btn-k" href="tel:+48513736053">Zadzwoń</a><a class="btn" href="#kontakt">Zapytaj o wycenę</a></div>
+<div class="lb" id="lb" role="dialog" aria-label="Powiększone zdjęcie"><img alt=""><button type="button" aria-label="Zamknij">×</button></div>
+
+<script>
+(function(){
+  var b=document.getElementById('burger'),n=document.getElementById('nav');
+  b.addEventListener('click',function(){var on=n.classList.toggle('on');b.classList.toggle('on',on);b.setAttribute('aria-expanded',on)});
+  n.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('on');b.classList.remove('on');b.setAttribute('aria-expanded',false)})});
+
+  var t=document.getElementById('tor'),x0=0,s0=0,ruch=false,wcis=false;
+  t.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;wcis=true;ruch=false;x0=e.clientX;s0=t.scrollLeft});
+  window.addEventListener('pointermove',function(e){if(!wcis)return;var d=e.clientX-x0;if(Math.abs(d)>5){ruch=true;t.classList.add('ciag')}t.scrollLeft=s0-d});
+  window.addEventListener('pointerup',function(){if(!wcis)return;wcis=false;t.classList.remove('ciag')});
+  function krok(k){var f=t.querySelector('figure');t.scrollBy({left:k*(f.offsetWidth+14),behavior:'smooth'})}
+  document.getElementById('wstecz').onclick=function(){krok(-1)};
+  document.getElementById('dalej').onclick=function(){krok(1)};
+
+  var lb=document.getElementById('lb'),li=lb.querySelector('img');
+  document.querySelectorAll('[data-duze]').forEach(function(el){el.addEventListener('click',function(e){if(ruch){e.preventDefault();ruch=false;return}li.src=el.dataset.duze;li.alt=el.querySelector('img').alt;lb.classList.add('on')})});
+  function zamknij(){lb.classList.remove('on')}
+  lb.addEventListener('click',zamknij);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')zamknij()});
+
+  var mob=document.getElementById('mob'),cta=document.querySelector('.hero .btn');
+  new IntersectionObserver(function(w){mob.classList.toggle('widac',!w[0].isIntersecting&&w[0].boundingClientRect.top<0)}).observe(cta);
+
+  var m=document.getElementById('mapa');
+  new IntersectionObserver(function(w,o){if(w[0].isIntersecting){var f=document.createElement('iframe');f.src=m.dataset.src;f.title='Mapa: ul. Wyczółkowskiego 18, Iława';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';m.appendChild(f);o.disconnect()}},{rootMargin:'300px'}).observe(m);
+})();
+</script>
+</body>
+</html>
